@@ -7,7 +7,7 @@ class Pessoa{
     private $peso;
     private $altura;
 
-    function __construct($nome,$endereco){
+    function __construct($nome,$endereco=null){
         $this->nome = $nome;
         $this->endereco = $endereco;
 
